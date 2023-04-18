@@ -1,0 +1,54 @@
+.col-4 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.wrapper {
+    margin-top: 20px;
+    padding: 5%;
+    position: relative;
+}
+
+h2{
+    font-weight: 700;
+    
+}
+#add, #clear {
+    background-color: #8e49e9;
+    color: white;
+}
+
+#add i {
+    color: white;
+    font-size: 20px;
+
+}
+
+span {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 3%;
+    color:rgb(103, 101, 101)
+}
+
+#clear {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+
+
+}
+
+#errormsg {
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-danger {
+    display: none;
+}
+
+.list-group-item:hover .btn-danger {
+    display: block;
+}
